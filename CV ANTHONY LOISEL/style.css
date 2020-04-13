@@ -1,0 +1,173 @@
+/* Polices d'écritures*/
+
+@font-face {
+    font-family: 'barlowlight';
+    src: url('./fonts/Barlow-Light-webfont.eot');
+    src: url('./fonts/Barlow-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Barlow-Light-webfont.woff') format('woff'),
+         url('./fonts/Barlow-Light-webfont.ttf') format('truetype'),
+         url('./fonts/Barlow-Light-webfont.svg#barlowlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Bloc global*/
+
+* {
+    font-family: 'barlowlight', Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p, li {
+    font-size: 1.2em;
+}
+h1 {
+    color: #e5c028;
+}
+ul {
+    padding-left: 20px;
+}
+#bloc_gauche h2 {
+    text-align: center;
+    background-color: #1c1c19;
+    color: #e5c028;
+    border: 3px solid #e5c028;
+    padding: 10px;
+}
+#Contacts a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+#Contacts a:visited {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+#Contacts a:hover {
+    color: #1c1c19;
+    font-weight: bold;
+  }
+  
+#Contacts a:active {
+    color: white;
+    font-weight: bold;
+  }
+header {
+    display: flex;
+    flex-direction: row;
+}
+#bloc_global {
+    display: flex;
+    flex-direction: column;
+}
+#corps {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Bloc de gauche*/
+#bloc_gauche {
+    background-color: #e5c028;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bloc_gauche p, #bloc_gauche li {
+    color: white;
+}
+#Photo {
+    display: flex;
+    justify-content: center;
+    background-color: #e5c028;
+    flex: 1;
+    min-width: 270.5px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+#Contacts ul {
+    list-style-type: none;
+}
+#Contacts ul li {
+    margin-bottom: 15px;
+}
+#Apropos {
+    flex-grow: 1;
+}
+#presentation {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#Loisirs {
+    color: white;
+}
+#Photo img {
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 10px 2px black;
+}
+
+/* Bloc de droite*/
+
+#Titre {
+    flex: 3;
+    align-self: center;
+}
+#title_subtitle {
+    margin-left: 50px;
+}
+#Titre h2  span {
+    color: #1c1c19;
+}
+#bloc_droite {
+    flex: 3;
+    margin-top: 5px;
+}
+.bloc_titre{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.main_titre{
+    padding-left: 20px;
+}
+.main_titre h2 {
+    margin-top: 25px;
+    border-bottom: 3px solid #e5c028;
+}
+.icones_titre i{
+    color: #e5c028;
+    font-size: 2em;
+    margin-top: 18px;
+}
+.article {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.icons i {
+    color: #e5c028;
+}
+.texte_article p {
+    margin: 0;
+    padding-left: 20px;
+}
+.dates {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    min-width: 270px;
+}
+.contenu{
+    flex: 6;
+}
+.contenu p {
+    margin-top: 0;
+}

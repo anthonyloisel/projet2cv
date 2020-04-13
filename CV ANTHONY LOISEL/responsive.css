@@ -1,0 +1,28 @@
+@media screen and (max-width: 900px)
+{ 
+    /* Partie globale */
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    #corps {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        border: none;
+    }
+
+    #h2responsive {
+        margin-block-start: 0;
+    }
+
+    /* Partie de gauche */
+
+    /* Partie de droite */
+    
+    #bloc_droite {
+        order: -1;
+    }
+}
